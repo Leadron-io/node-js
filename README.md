@@ -69,8 +69,8 @@ const remaining = client.getRateLimitStatus();
 
 ## Webhook events
 
-See [instructions.md](../instructions.md) for the full list of webhook event types (e.g. `lead.created`, `lead.converted`, `commission.approved`, `document.signed`). Verify payloads with `client.auth.verifyWebhookSignature(payload, signature, secret)` before processing.
+See [Leadron Events](https://docs.leadron.io/events) for the full list of webhook event types (e.g. `lead.created`, `lead.converted`, `commission.approved`, `document.signed`). Verify payloads with `client.auth.verifyWebhookSignature(payload, signature, secret)` before processing.
 
 ## API docs
 
-Full API reference: [OpenAPI spec](../../documentation/api-docs/openapi.yaml) and [SDK-to-HTTP mapping](../api-mapping.md).
+Full API reference: [Leadron Docs](https://docs.leadron.io).
